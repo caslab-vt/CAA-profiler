@@ -1,0 +1,18 @@
+gcc -Wall main.c anyNonFinite.c centralizedTaskIndOptimization.c centralizedTaskIndOptimization_data.c centralizedTaskIndOptimization_emxAPI.c centralizedTaskIndOptimization_emxutil.c centralizedTaskIndOptimization_initialize.c centralizedTaskIndOptimization_terminate.c conncomp1.c eig.c eml_rand_mt19937ar_stateful.c isfinite.c ishermitian.c mod.c rand.c randomTaskIndConditions.c relop.c rt_nonfinite.c rtGetInf.c rtGetNaN.c schur.c sort1.c sortIdx.c sortLE.c sqrt.c test_rtwutil.c triu.c xdhseqr.c xdlanv2.c xgehrd.c xgemv.c xgerc.c xhseqr.c xnrm2.c xrot.c xzgeev.c xzggbal.c xzgghrd.c xzhgeqz.c xzlangeM.c xzlanhs.c xzlarf.c xzlarfg.c xzlartg.c xzlascl.c -o test1 -lm
+
+time ./test1
+
+
+for input ranges
+unsigned int Nrange_min = 4;
+unsigned int Nrange_max = 8;
+unsigned int numReqRange_min = 2;
+unsigned int numReqRange_max = 5;
+unsigned int numFuncRange_min = 2;
+unsigned int numFuncRange_max = 5;
+
+
+output
+
+
+

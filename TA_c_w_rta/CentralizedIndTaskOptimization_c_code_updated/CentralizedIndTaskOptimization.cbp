@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CentralizedIndTaskOptimization" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CentralizedIndTaskOptimization" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CentralizedIndTaskOptimization" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CentralizedIndTaskOptimization.cbp" />
+		<Unit filename="anyNonFinite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="anyNonFinite.h" />
+		<Unit filename="centralizedTaskIndOptimization.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centralizedTaskIndOptimization.h" />
+		<Unit filename="centralizedTaskIndOptimization_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centralizedTaskIndOptimization_data.h" />
+		<Unit filename="centralizedTaskIndOptimization_emxAPI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centralizedTaskIndOptimization_emxAPI.h" />
+		<Unit filename="centralizedTaskIndOptimization_emxutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centralizedTaskIndOptimization_emxutil.h" />
+		<Unit filename="centralizedTaskIndOptimization_initialize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centralizedTaskIndOptimization_initialize.h" />
+		<Unit filename="centralizedTaskIndOptimization_terminate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="centralizedTaskIndOptimization_terminate.h" />
+		<Unit filename="centralizedTaskIndOptimization_types.h" />
+		<Unit filename="conncomp1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conncomp1.h" />
+		<Unit filename="eig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eig.h" />
+		<Unit filename="eml_rand_mt19937ar_stateful.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eml_rand_mt19937ar_stateful.h" />
+		<Unit filename="isfinite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="isfinite.h" />
+		<Unit filename="ishermitian.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ishermitian.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="mod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mod.h" />
+		<Unit filename="rand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rand.h" />
+		<Unit filename="randomTaskIndConditions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="randomTaskIndConditions.h" />
+		<Unit filename="relop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="relop.h" />
+		<Unit filename="rtGetInf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rtGetInf.h" />
+		<Unit filename="rtGetNaN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rtGetNaN.h" />
+		<Unit filename="rt_defines.h" />
+		<Unit filename="rt_nonfinite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rt_nonfinite.h" />
+		<Unit filename="rtwtypes.h" />
+		<Unit filename="schur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="schur.h" />
+		<Unit filename="sort1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sort1.h" />
+		<Unit filename="sortIdx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sortIdx.h" />
+		<Unit filename="sortLE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sortLE.h" />
+		<Unit filename="sqrt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sqrt.h" />
+		<Unit filename="test_rtwutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_rtwutil.h" />
+		<Unit filename="test_types.h" />
+		<Unit filename="tmwtypes.h" />
+		<Unit filename="triu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="triu.h" />
+		<Unit filename="xdhseqr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xdhseqr.h" />
+		<Unit filename="xdlanv2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xdlanv2.h" />
+		<Unit filename="xgehrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xgehrd.h" />
+		<Unit filename="xgemv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xgemv.h" />
+		<Unit filename="xgerc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xgerc.h" />
+		<Unit filename="xhseqr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xhseqr.h" />
+		<Unit filename="xnrm2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xnrm2.h" />
+		<Unit filename="xrot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xrot.h" />
+		<Unit filename="xzgeev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzgeev.h" />
+		<Unit filename="xzggbal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzggbal.h" />
+		<Unit filename="xzgghrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzgghrd.h" />
+		<Unit filename="xzhgeqz.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzhgeqz.h" />
+		<Unit filename="xzlangeM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzlangeM.h" />
+		<Unit filename="xzlanhs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzlanhs.h" />
+		<Unit filename="xzlarf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzlarf.h" />
+		<Unit filename="xzlarfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzlarfg.h" />
+		<Unit filename="xzlartg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzlartg.h" />
+		<Unit filename="xzlascl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xzlascl.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
